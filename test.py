@@ -67,7 +67,9 @@ def X (series):
     upper_bound = q3 + 1.5 * iqr
     return series[(series < lower_bound) | (series > upper_bound)]
 outliers = X(df["salary"])
-
+print("Outliers in salary column:")
+print(outliers)
+print
 
 
 
