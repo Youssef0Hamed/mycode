@@ -70,7 +70,6 @@ outliers = X(df["salary"])
 print("Outliers in salary column:")
 print(outliers)
 
-# print(df.corr()). 
 
 
 
