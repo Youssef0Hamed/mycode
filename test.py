@@ -69,7 +69,8 @@ def X (series):
 outliers = X(df["salary"])
 print("Outliers in salary column:")
 print(outliers)
-print
+print(df.info())
+print(df.head())
 
 
 
