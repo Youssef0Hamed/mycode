@@ -71,6 +71,6 @@ print("Outliers in salary column:")
 
 
 
-haljhbdfb
-lkjdbfb
-ljhbsEIUFB
+# haljhbdfb
+# lkjdbfb
+# ljhbsEIUFB
