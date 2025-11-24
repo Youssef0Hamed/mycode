@@ -68,9 +68,6 @@ def X (series):
     return series[(series < lower_bound) | (series > upper_bound)]
 outliers = X(df["salary"])
 print("Outliers in salary column:")
-print(outliers)
-print(df.info())
-print(df.head())
 
 
 
